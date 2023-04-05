@@ -1,0 +1,35 @@
+.expenses {
+  padding: 1rem;
+  background-color: white;
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+}
+
+.expense-total-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  padding: 20px 15px;
+}
+
+.expense-total {
+  font-size: 1.5rem;
+  color: #3a3a3a;
+}
+
+.expense-total-amount {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  background-color: #3bc9db;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.expense-history {
+  font-size: 1rem;
+  font-weight: bold;
+}

@@ -25,9 +25,10 @@ const BudgetForm: React.FC<FormProps> = ({ closeForm }) => {
           <label>Own Budget</label>
           <input
             type="number"
+            inputMode="numeric"
             min="0.01"
             step="0.01"
-            value={budget ?? ''}
+            value={budget || ''}
             onChange={(e) => setBudget(+e.target.value)}
           />
         </div>

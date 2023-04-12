@@ -51,6 +51,7 @@ const ExpenseForm: React.FC<FormProps> = ({ closeForm }) => {
           <label>Expense</label>
           <input
             type="number"
+            inputMode="numeric"
             min="0.01"
             step="0.01"
             value={amount}

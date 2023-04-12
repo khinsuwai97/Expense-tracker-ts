@@ -26,6 +26,7 @@ const EditBudget: React.FC<FormProps> = ({ closeForm, budget }) => {
             <label> Budget</label>
             <input
               type="number"
+              inputMode="numeric"
               min="0.01"
               step="0.01"
               value={editBudget || ''}
